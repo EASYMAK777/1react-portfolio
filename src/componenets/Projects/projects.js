@@ -47,6 +47,7 @@ function Projects() {
                     </Col>
                     <Col>
                         <Media>
+                            <a href="https://easymak777.github.io/QC-Watering-hole/">
                             <img
                                 width={500}
                                 height={500}
@@ -54,6 +55,7 @@ function Projects() {
                                 src={BeerApp}
                                 alt="wheres-my-beer-app"
                             />
+                            </a>
                         </Media>
                     </Col>
 
