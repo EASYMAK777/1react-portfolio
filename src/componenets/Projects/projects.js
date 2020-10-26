@@ -1,5 +1,9 @@
 import React from 'react';
 import { Container, Row, Media, Col } from 'react-bootstrap';
+import Weather from "../img/weather-app.png";
+import Pokedex from "../img/pokedex.gif";
+import Amplifi from "../img/amplifi-profile.PNG";
+import BeerApp from "../img/wheres-my-beer.jpg.png";
 
 function Projects() {
     return (
@@ -12,44 +16,44 @@ function Projects() {
                                 width={500}
                                 height={500}
                                 className="weather-app"
-                                src={require('../img/weather-app.png')}
+                                src={Weather}
                                 alt="weather-app"
                             />
                         </Media>
                     </Col>
                     <Col>
                         <Media>
-                            {/* <img
+                            <img
                                 width={500}
                                 height={500}
-                                className="weather-app"
-                                src={require('./QC-wateringhole.gif')}
-                                alt="weather-app"
-                            /> */}
+                                className="pokemon-app"
+                                src={Pokedex}
+                                alt="pokedex-app"
+                            />
                         </Media>
                     </Col>
                 </Row>
                 <Row>
                     <Col>
                         <Media>
-                            {/* <img
+                            <img
                                 width={500}
                                 height={500}
-                                className="weather-app"
-                                src={require('./weather-app.gif')}
-                                alt="weather-app"
-                            /> */}
+                                className="amplifi-app"
+                                src={Amplifi}
+                                alt="amplifi-app"
+                            />
                         </Media>
                     </Col>
                     <Col>
                         <Media>
-                            {/* <img
+                            <img
                                 width={500}
                                 height={500}
-                                className="weather-app"
-                                src={require('./weather-app.gif')}
-                                alt="weather-app"
-                            /> */}
+                                className="wheres-my-beer-app"
+                                src={BeerApp}
+                                alt="wheres-my-beer-app"
+                            />
                         </Media>
                     </Col>
 
