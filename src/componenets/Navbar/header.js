@@ -33,15 +33,9 @@ function Header() {
               
             </Nav>
             <Nav>
-              <Link to="/linked-in"
-              className={location.pathname === "/linked-in" ? "nav-link active" : "nav-link"}>
-                Linked-in
-                </Link>
+              <Nav.Link href="https://www.linkedin.com/in/juan-flores-aa28271b2/">Linked-In</Nav.Link>
               
-              <Link to ="/memes"
-              className={location.pathname === "/resume" ? "nav-link active" : "nav-link"}>
-                Dank Coder memes
-              </Link>
+              <Nav.Link href="https://github.com/EASYMAK777">Github Profile</Nav.Link>
             
             
             </Nav>
