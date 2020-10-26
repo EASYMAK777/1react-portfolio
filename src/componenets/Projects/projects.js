@@ -12,37 +12,46 @@ function Projects() {
                 <Row>
                     <Col>
                         <Media>
+                            <a href ="https://easymak777.github.io/mondo-weather-forecast/">
+
                             <img
                                 width={500}
                                 height={500}
                                 className="weather-app"
                                 src={Weather}
                                 alt="weather-app"
-                            />
+                                />
+                            </a>
                         </Media>
                     </Col>
                     <Col>
                         <Media>
+                            <a href="https://vast-escarpment-44555.herokuapp.com">
+
                             <img
                                 width={500}
                                 height={500}
-                                className="pokemon-app"
+                                className="pokedex-app"
                                 src={Pokedex}
                                 alt="pokedex-app"
-                            />
+                                />
+                            </a>
                         </Media>
                     </Col>
                 </Row>
                 <Row>
                     <Col>
                         <Media>
+                            <a href="https://amplifiyourlife.herokuapp.com">
+
                             <img
                                 width={500}
                                 height={500}
                                 className="amplifi-app"
                                 src={Amplifi}
                                 alt="amplifi-app"
-                            />
+                                />
+                            </a>
                         </Media>
                     </Col>
                     <Col>
