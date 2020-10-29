@@ -6,7 +6,7 @@ import About from './componenets/Pages/about'
 
 import Portfolio from './componenets/Pages/portfolio';
 
-import Contact from "./componenets/Form/form"
+import Contact from "./componenets/Pages/contact"
 
 
 function App() {
@@ -20,6 +20,7 @@ function App() {
         <Route exact path ="/Contact" component ={Contact}/>
         {/* <Routh exact path ="/linked-in" component={Linked-In}/>
         <Route exact path ="/resume" component={Resume}/> */}
+        
         
       </div>
 
