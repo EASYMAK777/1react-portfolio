@@ -6,6 +6,8 @@ import About from './componenets/Pages/about'
 
 import Portfolio from './componenets/Pages/portfolio';
 
+import Contact from "./componenets/Pages/contact"
+
 
 function App() {
   return (
@@ -15,9 +17,11 @@ function App() {
         
         <Route exact path="/" component ={About} />
         <Route exact path ="/Portfolio" component ={Portfolio}/>
-        {/* <Route exact path ="/Contact" component ={Contact}/>
-        <Routh exact path ="/linked-in" component={Linked-In}/>
-        <Route exact path ="/resume" component={Resume}/> */}
+        <Route exact path ="/Contact" component ={Contact}/>
+        {/* <Route exact path ="/linked-in" component={Linked-In}/> */}
+        {/* <Route exact path ="/resume" component={Resume}/>  */}
+        <Route exact path="/react-portfolio" component={About} />
+        
         
       </div>
 
