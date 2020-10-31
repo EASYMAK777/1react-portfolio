@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import './form.css';
-import { db } from '../Firebase/firebase'
+import { db } from '../Firebase/firebase';
 // import './App.css';
 
 const Form = () => {
+  const [name, setName] = useState("")
+  const [email, setEmail] = useState("")
+  const [message, setMessage] = useState("")
   return(
 
     <Container>
