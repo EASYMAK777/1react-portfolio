@@ -18,10 +18,12 @@ const Form = () => {
       <h1>Contact Form 📧 </h1>
 
       <label>Name</label>
-      <input placeholder="Name"/>
+      <input placeholder="Name" value = {name} 
+      onChange={(e) => setName(e.target.value) } />
 
       <label>Email</label>
-      <input placeholder="Email"/>
+      <input placeholder="Email" value = {email}
+      onChange={(e) => setEmail(e.target.value) } />
 
       <label>Mesesage</label>
       <textarea placeholder="Message"></textarea>
