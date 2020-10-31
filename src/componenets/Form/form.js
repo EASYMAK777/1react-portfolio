@@ -18,6 +18,10 @@ const Form = () => {
       email:email,
       message:message,
     })
+    .then(() => {
+      alert('message has been submitted, I will contact you shortly');
+    })
+    
 
   }
 
