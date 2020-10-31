@@ -12,6 +12,13 @@ const Form = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    db.collection("contacts").add({
+      name:name,
+      email:email,
+      message:message,
+    })
+
   }
 
   return(
