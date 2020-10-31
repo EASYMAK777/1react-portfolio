@@ -1,7 +1,7 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import './form.css';
-
+import { db } from '../Firebase/firebase'
 // import './App.css';
 
 const Form = () => {
