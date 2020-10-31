@@ -56,7 +56,7 @@ const Form = () => {
 
       <label>Message</label>
       <textarea placeholder="Message" value ={message}
-      onChanage={(e) => setMessage(e.target.value) }
+      onChange={(e) => setMessage(e.target.value) }
       ></textarea>
 
       <button type="submit" style={{background : loader
