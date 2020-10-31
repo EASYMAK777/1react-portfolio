@@ -26,7 +26,9 @@ const Form = () => {
       onChange={(e) => setEmail(e.target.value) } />
 
       <label>Mesesage</label>
-      <textarea placeholder="Message"></textarea>
+      <textarea placeholder="Message" value ={messsage}
+      onChanage={(e) => setMessage(e.target.value) }
+      ></textarea>
 
       <button type="submit">Submit</button>
 
