@@ -8,13 +8,19 @@ const Form = () => {
   const [name, setName] = useState("")
   const [email, setEmail] = useState("")
   const [message, setMessage] = useState("")
+
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+  }
+
   return(
 
     <Container>
       <Row>
         <Col>
         
-    <form className="form">
+    <form className="form" onSubmit={handleSubmit}>
       <h1>Contact Form 📧 </h1>
 
       <label>Name</label>
