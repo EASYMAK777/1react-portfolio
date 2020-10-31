@@ -23,10 +23,14 @@ const Form = () => {
     })
     .catch((error) => {
       alert(error.message);
-    })
+    });
+
+    setName('')
+    setEmail('')
+    setMessage('')
 
 
-  }
+  };
 
   return(
 
