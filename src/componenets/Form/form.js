@@ -9,9 +9,12 @@ const Form = () => {
   const [email, setEmail] = useState("")
   const [message, setMessage] = useState("")
 
+  const [loader, setLoader] = useState(false);
+
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    setLoader(true)
 
     db.collection("contacts").add({
       name:name,
@@ -20,10 +23,12 @@ const Form = () => {
     })
     .then(() => {
       alert('message has been submitted, I will contact you shortly');
+      setLoader(false);
     })
     .catch((error) => {
       alert(error.message);
-    });
+      setLoader(false);
+    })
 
     setName('')
     setEmail('')
@@ -49,12 +54,16 @@ const Form = () => {
       <input placeholder="Email" value = {email}
       onChange={(e) => setEmail(e.target.value) } />
 
-      <label>Mesesage</label>
-      <textarea placeholder="Message" value ={messsage}
+      <label>Message</label>
+      <textarea placeholder="Message" value ={message}
       onChanage={(e) => setMessage(e.target.value) }
       ></textarea>
 
-      <button type="submit">Submit</button>
+      <button type="submit" style={{background : loader
+      ? "#ccc" : " rgb(2, 2, 110)" }}
+      >
+      Submit
+      </button>
 
 
     </form>
