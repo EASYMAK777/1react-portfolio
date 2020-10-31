@@ -21,7 +21,10 @@ const Form = () => {
     .then(() => {
       alert('message has been submitted, I will contact you shortly');
     })
-    
+    .catch((error) => {
+      alert(error.message);
+    })
+
 
   }
 
