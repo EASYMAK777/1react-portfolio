@@ -30,6 +30,11 @@ function Header() {
               className={location.pathname === "/Contact" ? "nav-link active" : "nav-link"}>
               Contact
               </Link>
+
+              <Link to="/Resume"
+              className={location.pathname === "/Resume" ? "nav-link active" : "nav-link"}>
+                Resume
+              </Link>
               
             </Nav>
             <Nav>

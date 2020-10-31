@@ -15,6 +15,7 @@ input,
 textarea,
 button {
   font-family: "Inter", sans-serif;
+
 }
 
 .app {
@@ -28,11 +29,15 @@ button {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: right;
+  align-items: right;
+  
 }
 
 .form > h1 {
   margin-bottom: 30px;
+  text-align: center;
+ 
 }
 
 .form > input,

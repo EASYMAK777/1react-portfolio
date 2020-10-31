@@ -1,16 +1,16 @@
 import React from 'react';
-import { Container, Row } from 'react-bootstrap';
+import { Col, Container, Row } from 'react-bootstrap';
 import './form.css';
 
-// import '../app.css';
+// import './App.css';
 
 const Form = () => {
   return(
 
     <Container>
       <Row>
-
-
+        <Col>
+        
     <form className="form">
       <h1>Contact Form 📧 </h1>
 
@@ -27,15 +27,19 @@ const Form = () => {
 
 
     </form>
-
-
+        
+        </Col>
       </Row>
-
-
-
-
-
     </Container>
+
+
+
+
+
+
+
+
+
   );
 };
 

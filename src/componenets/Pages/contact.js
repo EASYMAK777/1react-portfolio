@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import Form from '../Form/form';
 
 import Header from '../Navbar/header';
@@ -13,7 +13,10 @@ function Contact() {
                     <Header />
                 </Row>
                 <Row>
+                    <Col>
+                    
                     <Form />
+                    </Col>
                 </Row>
                 <Row>
                     <Foot />
